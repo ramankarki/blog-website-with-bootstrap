@@ -17,7 +17,7 @@ body {
   margin-bottom: 5.5%; }
 
 .top-heading {
-  margin: 1rem 0;
+  margin: .5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -55,18 +55,21 @@ nav {
 .jcode-blogs-break {
   display: none; }
 
+.heading {
+  font-size: 1.4rem;
+  margin: 3rem 0 1rem 0; }
+
 @media (max-width: 992px) {
   nav .left-angle,
   nav .right-angle {
     display: block;
     position: absolute;
     width: 2rem;
-    height: auto; }
+    height: auto;
+    top: 5.8rem; }
   nav .left-angle {
-    top: 6.5rem;
     left: 1rem; }
   nav .right-angle {
-    top: 6.5em;
     right: 1rem; } }
 @media (max-width: 576px) {
   .top-heading h1 {
