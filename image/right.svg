@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,19 +53,15 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <path
-       id="path843"
-       d="M -5.3245876,8.7851658 -4.6759808,8.1998181 -8.5479486,3.9908416 -4.3042033,0.12593081 -4.8293621,-0.45663281 -9.7038251,3.9143603 Z"
-       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 3.2296815,0.66510927 -0.603536,0.63171893 4.172674,3.9110628 -3.946258,4.1682077 0.566808,0.542125 4.537818,-4.7195538 z"
-       id="path845" />
     <circle
        r="5.1551275"
        cy="5.2916665"
        cx="5.2916665"
        id="path847"
        style="fill:#b3b3b3;stroke:#b3b3b3;stroke-width:0.273078;opacity:0.5" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.159505px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 4.0485926,2.5025325 3.6847491,2.8833662 6.2002583,5.2411622 3.8212447,7.753979 4.1629466,8.0808006 6.898584,5.2356033 Z"
+       id="path845" />
   </g>
 </svg>

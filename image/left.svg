@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,10 +53,6 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <path
-       id="path843"
-       d="M 6.9710931,9.9125658 7.6196999,9.3272181 3.7477321,5.1182416 7.9914774,1.2533308 7.4663186,0.6707672 2.5918556,5.0417603 Z"
-       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <circle
        r="5.1551275"
        cy="5.2916665"
@@ -64,8 +60,8 @@
        id="path847"
        style="fill:#b3b3b3;stroke:#b3b3b3;stroke-width:0.273078;opacity:0.5" />
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 14.873603,0.08552272 -0.603536,0.63171893 4.172674,3.91106275 -3.946258,4.1682077 0.566808,0.542125 4.537818,-4.7195538 z"
-       id="path845" />
+       id="path843"
+       d="M 6.3645939,8.2437988 6.7789663,7.8698405 4.3053004,5.1808714 7.0164821,2.711714 6.6809763,2.3395342 3.566851,5.1320101 Z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.169033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
