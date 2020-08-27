@@ -1,10 +1,57 @@
+$light-grey: #6c757d;
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    max-width: 1366px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 90%;
+    margin: auto;
 }
 
 .carousel-caption {
     margin-bottom: 5.5%;
+}
+
+.top-heading {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-size: 2rem;
+        cursor: pointer;
+        align-self: center;
+    }
+
+    p:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $light-grey;
+    position: sticky;
+    top: 0px;
+
+    p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
 
