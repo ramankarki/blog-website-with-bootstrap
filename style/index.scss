@@ -1,5 +1,6 @@
 $light-grey: #6c757d;
 $primary-color: #007bff;
+$black: #383838;
 $heading: 1.4rem;
 
 * {
@@ -24,19 +25,32 @@ body {
     margin-bottom: 5.5%;
 }
 
+header {
+    h1,
+    p {
+        color: $black;
+    }
+}
+
 .top-heading {
     margin: .5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    #logo {
+        color: $primary-color;
+    }
+
     h1 {
         font-size: 2rem;
         cursor: pointer;
+        color: $black;
     }
 
     p {
         margin-top: .9rem;
+        color: $black;
     }
 
     p:hover {
@@ -58,15 +72,15 @@ nav {
     display: block;
     display: flex;
     justify-content: space-between;
-    color: $light-grey;
     overflow-x: auto;
-
+    
     p:hover {
         cursor: pointer;
         text-decoration: underline;
     }
-
+    
     p {
+        color: $light-grey;
         margin: 1rem;
         margin-top: 0;
     }
@@ -83,8 +97,15 @@ nav {
 .heading {
     font-size: $heading;
     margin: 3rem 0 1rem 0;
+    color: $black !important;
 }
 
+.row {
+    p,
+    h3 {
+        color: $black;
+    }
+}
 
 
 @media (max-width: 992px) {
