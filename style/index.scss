@@ -1,6 +1,8 @@
-$light-grey: #6c757d;
 $primary-color: #007bff;
+$light-grey: #6c757d;
 $black: #383838;
+$light-black: rgb(73, 73, 73);
+$small-text: .9rem;
 $topic-heading: 1.3rem;
 $heading: 2rem;
 
@@ -109,6 +111,7 @@ nav {
     .mb-auto,
     .card-text {
         margin: .5rem 0;
+        color: $light-black;
     }
 }
 
@@ -122,6 +125,45 @@ nav {
 .container {
     .media {
         margin: 3rem 0;
+
+        p {
+            color: $light-black;
+        }
+
+        .date {
+            font-size: $small-text;
+            color: $light-grey;
+        }
+    }
+}
+
+footer {
+    color: $light-black;
+    hr {
+        margin: 3rem 0;
+    }
+
+    .about-us-text {
+        line-height: 2rem;
+    }
+
+    .terms {
+        margin-top: 2rem;
+
+        * {
+            line-height: 2rem;
+        }
+    }
+
+    .connect-us {
+        text-align: center;
+    }
+}
+
+.container {
+    .social-link {
+        font-size: 2rem;
+        margin: 0 .2rem;
     }
 }
 
