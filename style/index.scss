@@ -1,7 +1,8 @@
 $light-grey: #6c757d;
 $primary-color: #007bff;
 $black: #383838;
-$heading: 1.4rem;
+$topic-heading: 1.3rem;
+$heading: 2rem;
 
 * {
     margin: 0;
@@ -100,10 +101,27 @@ nav {
     color: $black !important;
 }
 
+.col {
+    .mb-0 {
+        font-size: $topic-heading;
+    }
+
+    .mb-auto,
+    .card-text {
+        margin: .5rem 0;
+    }
+}
+
 .row {
     p,
     h3 {
         color: $black;
+    }
+}
+
+.container {
+    .media {
+        margin: 3rem 0;
     }
 }
 
